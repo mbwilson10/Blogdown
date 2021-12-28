@@ -1,29 +1,29 @@
-baseURL: https://naughty-swartz-b62b0b.netlify.app/
-title: Your title
+baseURL: https://example.com
+title: Max Wilson
 theme: hugo-theme-m10c
-paginate: 8
+paginate: 5
 menu:
   main:
     - identifier: home
       name: Home
       url: /
       weight: 1
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 2
+ #   - identifier: tags
+  #    name: Tags
+   #   url: /tags/
+    #  weight: 2
     - identifier: about
       name: About
       url: /about/
       weight: 3
 params:
-  author: John Doe
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  author: Max Wilson
+  description: This site serves as a channel for me to express future goals and interests
   menu_item_separator: ' - '
   social:
-    - icon: github
-      name: Github
-      url: https://github.com/gohugoio
-    - icon: twitter
-      name: Twitter
-      url: https://twitter.com/gohugoio
+    - icon: linkedin
+      name: Linkedin
+      url: https://www.linkedin.com/in/maxwell-wilson10
+    ##- icon: twitter
+      #name: Twitter
+      #url: https://twitter.com/gohugoio
